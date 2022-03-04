@@ -1,0 +1,33 @@
+html{
+    font-size: 62.5%;
+    font-family:sans-serif;
+}
+
+body{
+    color:white;
+    margin:0;
+    background:#202231 ;
+}
+
+.maincontainer{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    font-size: 7rem;
+    
+}
+
+.output{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width:500px) {
+    header{
+        font-size: 3rem;
+    }
+}
